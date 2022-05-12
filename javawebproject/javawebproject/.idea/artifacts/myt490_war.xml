@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myt490:war">
+    <output-path>$PROJECT_DIR$/../myt490/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>myt490</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myt490-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="myt490:war exploded" />
+    </root>
+  </artifact>
+</component>
